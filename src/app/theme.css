@@ -5,6 +5,7 @@
   --font-family: "Montserrat", sans-serif;
   --font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   --surface-a: #ffffff;
+  --surface-background: #f4f4f4;
   --surface-b: #f9fafb;
   --surface-c: #f3f4f6;
   --surface-d: #e5e7eb;
@@ -5562,8 +5563,15 @@
     padding: 0.5rem;
     background: #ffffff;
     color: #000000;
-    border: 1px solid #e5e7eb;
     border-radius: 6px;
+  }
+  .p-menu-item-active .p-menuitem-text:first-child {
+    /* Add your styles here */
+    color: #0154AA !important; /* Example style */
+    font-weight: 600;
+  }
+  .p-menu-item-active {
+    color: "#0154AA"
   }
   .p-menubar .p-menubar-root-list {
     outline: 0 none;
@@ -5573,12 +5581,15 @@
     transition: box-shadow 0.2s;
     border-radius: 6px;
   }
+  .p-menubar .p-menubar-end {
+    flex-grow: 1
+  }
   .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link {
     padding: 0.75rem 1.25rem;
     user-select: none;
   }
   .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
-    color: #8B8B8C;
+    color: #737A91;
   }
   .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
     color: #6b7280;
@@ -6939,7 +6950,7 @@
 }
 @layer primereact {
   .p-button-label {
-    font-weight: 700;
+    font-weight: 500;
   }
   .p-selectbutton > .p-button,
   .p-togglebutton.p-button {

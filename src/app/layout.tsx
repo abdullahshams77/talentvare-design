@@ -7,6 +7,7 @@ import "primeflex/primeflex.css";
 import "./globals.css";
 //import Header from "@/components/common/header/header";
 import { Metadata } from "next";
+import AppHeader from "@/components/common/app.header/app.header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,9 +29,14 @@ export default function RootLayout({
         sizes="180x180"
         href="../../../assets/images/favicon.ico"
       /> */}
-      <body className={"pl-7 pr-7 mt-4 mb-5" + inter.className}>
+     <body
+        style={{
+          backgroundColor: "var(--surface-background)",
+        }}
+        className={"" + inter.className}
+      >
         <PrimeReactProvider>
-          <header></header>
+          <AppHeader />
           {children}
         </PrimeReactProvider>
       </body>
