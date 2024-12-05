@@ -1001,6 +1001,7 @@
     white-space: nowrap;
     overflow: hidden;
     flex: 1 1 auto;
+    font-size: 14px;
     width: 1%;
     text-overflow: ellipsis;
     cursor: pointer;
@@ -1059,7 +1060,7 @@
   }
   .p-dropdown {
     background: #ffffff;
-    border: 1px solid #d1d5db;
+    /* border: 1px solid #d1d5db; */
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
     border-radius: 6px;
     outline-color: transparent;
@@ -1093,7 +1094,9 @@
     border: 0 none;
   }
   .p-dropdown .p-dropdown-label.p-placeholder {
-    color: #6b7280;
+    color: #585D6E;
+    font-size: 14px;
+    text-align: right;
   }
   .p-dropdown .p-dropdown-label:focus, .p-dropdown .p-dropdown-label:enabled:focus {
     outline: 0 none;

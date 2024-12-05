@@ -6,31 +6,22 @@ interface AppInputProps extends InputTextProps {
   label?: string;
   error?: string;
   leftIcon?: any;
+  background?: string;
 }
 
 const AppInput: React.FC<AppInputProps> = (props) => {
-  const { value, error, label, onChange, leftIcon, ...rest } = props;
+  const { value, error, label, onChange, leftIcon, background, ...rest } =
+    props;
   return (
     <div
       className="flex align-items-center"
       style={{ borderColor: "#F6F9FF", backgroundColor: "#F6F9FF" }}
     >
-      {
-        leftIcon?
-        <Button
-        icon="pi pi-search"
-        className="h-1rem"
-        style={{
-          background: "#F6F9FF",
-          color: "#000",
-          border: "none"
-        }}
-      /> : null
-      }
+      {leftIcon ? leftIcon : null}
       <InputText
         style={{
-          backgroundColor: "#F6F9FF",
-          borderColor: "#F6F9FF",
+          backgroundColor: background ? background : "#F6F9FF",
+          borderColor: background ? background : "#F6F9FF",
           minWidth: "100px",
         }}
         value={value}
@@ -39,7 +30,6 @@ const AppInput: React.FC<AppInputProps> = (props) => {
         onChange={onChange}
         {...rest}
       />
-     
     </div>
   );
 };

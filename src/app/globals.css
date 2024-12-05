@@ -18,15 +18,34 @@
   font-size: 16px;
   font-weight: 600;
 }
+.item-heading-big {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 600;
+}
+.item-heading-big-blue {
+  color: #0154AA;
+  font-size: 22px;
+  font-weight: 600;
+}
 .item-text {
   color: #737A91;
   font-weight: 500;
   font-size: 14px;
 }
+.tab-background {
+  background-color: transparent;
+  border: 1px solid #737A91;
+  color: #737A91;
+  font-size: 12px;
+}
 
 h3 {
   color: #333333;
   margin-bottom: 15px;
+}
+.bg-primary {
+  background-color: #0154AA;
 }
 .box-container {
   border-radius: 10px;

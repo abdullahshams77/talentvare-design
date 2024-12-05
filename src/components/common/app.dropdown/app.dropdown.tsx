@@ -10,7 +10,7 @@ const AppDropdown: React.FC<any> = (props: any) => {
       loading={loading}
       options={options}
       onChange={onChange}
-      placeholder={placeholder || "Select"}
+      placeholder={placeholder}
       style={{ width: "100%" }}
       className={className}
     />
