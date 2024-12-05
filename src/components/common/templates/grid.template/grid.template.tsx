@@ -4,7 +4,7 @@ const GridTemplate = (props: any) => {
     return (
         <div className="grid" key={key}>
             {React.Children.map(children, child => (
-                <div className="col-12 sm:col-6 md:col-4 lg:col-4 xl:col-3">
+                <div className="col-6 sm:col-6 md:col-6 lg:col-4 xl:col-3">
                     {child}
                 </div>
             ))}

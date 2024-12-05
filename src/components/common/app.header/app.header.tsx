@@ -35,7 +35,7 @@ export default function AppHeader() {
   );
   const endContent = (
     <React.Fragment>
-      <div className="w-12 flex align-items-center justify-content-end flex-wrap gap-0 mr-3">
+      <div className="w-12 flex align-items-center justify-content-end flex-wrap gap-0">
         <div className="mr-2 flex-grow-1">
           <AppInput
             placeholder="Search"
@@ -52,7 +52,7 @@ export default function AppHeader() {
             }
           />
         </div>
-        <div className="mr-2 mt-1 flex gap-2 align-items-center">
+        <div className="mr-2 mt-1 flex gap-2 align-items-center pr-3">
           <AppButton label="Resume Builder" />
           <div>
             <Avatar

@@ -13,7 +13,7 @@ export default function JobsAdditionalFilter() {
       label: "Backend",
       data: {
         value: "BACKEND",
-      },
+      }
     },
     {
       label: "Graphic Designer",
