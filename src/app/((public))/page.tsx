@@ -1,4 +1,5 @@
 "use client";
+import AppTitle from "@/components/common/app.title/app.title";
 import JobsAdditionalFilter from "./components/jobs.filter/jobs.additional.filter";
 import JobsFilter from "./components/jobs.filter/jobs.filter";
 import UserCalendar from "./components/user.calendar/user.calendar";
@@ -34,6 +35,9 @@ export default function HomePage() {
           </div>
           <JobsFilter />
           <JobsAdditionalFilter />
+          <AppTitle title="Featured Jobs" hrefTitle="See Featured Jobs" />
+
+          <AppTitle title="Recommended Jobs" hrefTitle="See Recommended Jobs" />
         </div>
         <div></div>
       </div>
