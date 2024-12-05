@@ -1,7 +1,5 @@
 "use client";
-
 import ListItem from "@/components/common/list.item/list.item";
-import { Divider } from "primereact/divider";
 
 export default function UserProfileAnalytics() {
   return (

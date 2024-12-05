@@ -5,6 +5,8 @@ import JobsFilter from "./components/jobs.filter/jobs.filter";
 import UserCalendar from "./components/user.calendar/user.calendar";
 import UserProfileAnalytics from "./components/user.profile.analytics/user.profile.analytics";
 import UserProfile from "./components/user.profile/user.profile";
+import RecommendedJobsListing from "./components/recommended.jobs.listing/recommended.jobs.listing";
+import FeaturedJobsListing from "./components/featured.jobs.listing/featured.jobs.listing";
 
 export default function HomePage() {
   return (
@@ -36,8 +38,9 @@ export default function HomePage() {
           <JobsFilter />
           <JobsAdditionalFilter />
           <AppTitle title="Featured Jobs" hrefTitle="See Featured Jobs" />
-
+          <FeaturedJobsListing />
           <AppTitle title="Recommended Jobs" hrefTitle="See Recommended Jobs" />
+          <RecommendedJobsListing />
         </div>
         <div></div>
       </div>

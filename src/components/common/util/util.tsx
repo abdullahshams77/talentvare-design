@@ -28,3 +28,65 @@ export const NAV_ITEMS =  [
         path: "/notifications"
     }
 ]
+
+export const FEATURED_JOBS = [
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    }
+]
+
+export const RECOMMENDED_JOBS = [
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
+    }
+]
