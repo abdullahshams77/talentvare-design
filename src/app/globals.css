@@ -51,7 +51,9 @@ h3 {
   border-radius: 10px;
   background-color: #ffffff;
 }
-
+.w-70 {
+  width: 70%;
+}
 #root,
 body,
 html {
