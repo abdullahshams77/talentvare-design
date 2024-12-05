@@ -13,12 +13,25 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.item-heading {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+}
+.item-text {
+  color: #737A91;
+  font-weight: 500;
+  font-size: 14px;
+}
 
 h3 {
   color: #333333;
   margin-bottom: 15px;
 }
-
+.box-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
 
 #root,
 body,

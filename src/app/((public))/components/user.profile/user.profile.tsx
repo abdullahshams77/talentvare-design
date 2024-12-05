@@ -3,16 +3,9 @@ import "./user.profile.css";
 import Image from "next/image";
 import { Avatar } from "primereact/avatar";
 export default function UserProfile() {
-  //const element = document && document.getElementById("image-profile-background");
-  //const height = element && element.offsetHeight - 19 || 0;
   return (
-    <div className="profile-container">
-      <div
-        className="w-12"
-        style={{
-          position: "relative",
-        }}
-      >
+    <div className="box-container">
+      <div className="w-12 relative">
         <Image
           width={100}
           id="image-profile-background"
@@ -21,12 +14,14 @@ export default function UserProfile() {
           src="/assets/images/profile-background.svg"
           alt="Image"
         />
-        <Avatar
-          className="avatar-profile-pic"
-          size="xlarge"
-          image="/assets/images/profile-pic.png"
-          shape="circle"
-        />
+        <div>
+          <Avatar
+            className="avatar-profile-pic"
+            size="xlarge"
+            image="/assets/images/profile-pic.png"
+            shape="circle"
+          />
+        </div>
       </div>
       <div className="flex justify-content-center align-items-center pt-3 p-4 pb-0">
         <h3>Albert Flores</h3>
