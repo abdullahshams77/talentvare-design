@@ -14,26 +14,15 @@
   overflow: hidden;
 }
 
+h3 {
+  color: #333333;
+  margin-bottom: 15px;
+}
+
 
 #root,
 body,
 html {
   padding: 0;
   margin: 0;
-}
-
-.p-sidebar .p-sidebar-header {
-  margin: 10px 20px;
-  padding: 0 15px;
-  border-bottom: 1px solid #c4c4c4;
-}
-
-.search-container {
-  .p-inputtext:enabled:focus {
-    box-shadow: none;
-  }
-
-  .p-button:focus {
-    box-shadow: none;
-  }
 }

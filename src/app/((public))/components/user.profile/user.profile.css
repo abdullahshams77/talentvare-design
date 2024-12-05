@@ -1,0 +1,20 @@
+
+
+.avatar-profile-pic {
+    position: absolute;
+    left: 41%;
+    top:  calc(87% - 19px)
+}
+.profile-container {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.profile-details {
+    color: #333333;
+    font-weight: 500;
+    font-size: 14px;
+}
+.user-profile-city {
+    color: #585D6E;
+    font-size: 12px;
+}
