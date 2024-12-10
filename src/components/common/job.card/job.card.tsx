@@ -38,7 +38,7 @@ const JobCard: React.FC<JobCardProps> = (props: any) => {
               <div className="text-style-small">Teams</div>
             </div>
           </div>
-          <div className="mt-0 pl-2 flex align-items-center justify-content-between">
+          <div className="mt-0 pl-0 flex align-items-center justify-content-between">
             <div>
               <Image
                 width={20}
@@ -52,7 +52,7 @@ const JobCard: React.FC<JobCardProps> = (props: any) => {
               <div className="text-style-small">{location}</div>
             </div>
           </div>
-          <div className="mt-0 pl-2 flex align-items-center justify-content-between">
+          <div className="mt-0 pl-0 flex align-items-center justify-content-between">
             <div>
               <Image
                 width={20}

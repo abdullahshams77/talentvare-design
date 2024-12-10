@@ -12,8 +12,8 @@ import { Divider } from "primereact/divider";
 export default function HomePage() {
   return (
     <main>
-      <div className="w-11 md:w-12 flex flex-wrap m-5  md:m-5 gap-3">
-        <div className="w-12 md:w-3">
+      <div className="w-12 md:w-12 flex flex-wrap md:flex-nowrap gap-4 py-4">
+        <div className="w-12 pr-5 md:pr-0 md:w-5 lg:w-3 pl-5">
           <div className="flex gap-2 flex-column">
             <div className="w-12">
               <UserProfile />
@@ -27,7 +27,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="w-11 md:w-8">
+        <div className="w-12 pl-5 pr-5  md:w-7 lg:w-9 md:pl-0 md:pr-2">
           <div className="pt-2 item-heading-big flex gap-1">
             Find your Dream Job,{" "}
             <div className="item-heading-big-blue"> Albert</div>
@@ -42,8 +42,11 @@ export default function HomePage() {
           <FeaturedJobsListing />
           <Divider className="mt-3 mb-3" />
           <div>
-          <AppTitle title="Recommended Jobs" hrefTitle="See Recommended Jobs" />
-          <RecommendedJobsListing />
+            <AppTitle
+              title="Recommended Jobs"
+              hrefTitle="See Recommended Jobs"
+            />
+            <RecommendedJobsListing />
           </div>
         </div>
         <div></div>

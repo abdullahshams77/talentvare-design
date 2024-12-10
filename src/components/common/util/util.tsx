@@ -57,6 +57,13 @@ export const FEATURED_JOBS = [
         location: "Seattle, USA (Remote)",
         applicants: "22",
         posted: "1 day ago"
+    },
+    {
+        tag: "Promoted",
+        title : "UI/UX Designer",
+        location: "Seattle, USA (Remote)",
+        applicants: "22",
+        posted: "1 day ago"
     }
 ]
 

@@ -26,7 +26,7 @@ export default function JobsAdditionalFilter() {
     <div className="mt-1">
       <div className="w-12 relative"></div>
       <div className="pb-2 pt-2">
-        <div className="pl-2 flex align-items-center">
+        <div className="pl-0 flex align-items-center">
           <div className="item-text pr-2">
             Similar:
           </div>

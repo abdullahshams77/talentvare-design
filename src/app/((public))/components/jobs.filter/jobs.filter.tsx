@@ -10,7 +10,7 @@ export default function JobsFilter() {
       <div className="w-12 relative"></div>
       <div className="pl-2 pb-4 pt-4 pr-2">
         <div className="flex flex-wrap md:flex-column lg:flex-row">
-          <div className="lg:flex-1 md:w-3">
+          <div className="md:w-12 lg:flex-1 md:w-3">
             <AppInput
               background="#ffffff"
               placeholder="Job Title, Company, or Keywords"

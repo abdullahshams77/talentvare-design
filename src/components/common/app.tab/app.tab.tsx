@@ -3,7 +3,7 @@ import React from "react";
 const AppTab: any = (props: any) => {
   const { data, className, selectedTab } = props;
   return (
-    <div className="flex flex-wrap">
+    <div className="flex">
       {data && data.map((item: any, index: any) => (
         <button
           key={index}
