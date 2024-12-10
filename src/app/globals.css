@@ -20,6 +20,9 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.search-icon-image {
+  width: 20px !important;
+}
 .item-heading {
   color: #333333;
   font-size: 16px;
