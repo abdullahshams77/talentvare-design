@@ -1,0 +1,10 @@
+@media (min-width: 1400px) { /* This is the breakpoint for lg */
+    .grid {
+        display: grid;
+        gap: 0.2rem; /* Adjust space between columns */
+        grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+    }
+    .five-col {
+        width: 100%;
+    }
+}

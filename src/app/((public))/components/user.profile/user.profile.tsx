@@ -27,8 +27,8 @@ export default function UserProfile() {
         <h3>Albert Flores</h3>
       </div>
       <div className="flex justify-content-center align-items-center pt-0 pb-2">
-        <div className="profile-details text-center">
-          Senior Product Designer | UI/UX Designer | Graphic Designer | Web...
+        <div className="profile-details pl-2 pr-2 text-center line-clamp-2">
+          Senior Product Designer | UI/UX Designer | Graphic Designer | Web
         </div>
       </div>
       <div className="flex justify-content-center align-items-center pt-0 pb-4">

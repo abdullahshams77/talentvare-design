@@ -15,7 +15,7 @@ const JobCard: React.FC<JobCardProps> = (props: any) => {
   const { tag, title, location, applicants, posted } = props;
   return (
     <div
-      className="cursor-pointer flex gap-3 px-3 py-3 md:gap-0"
+      className="cursor-pointer flex gap-2 px-2 py-2 md:gap-0"
       style={{ backgroundColor: "#ffffff", borderRadius: "10px" }}
     >
       <div className="flex flex-column w-12">
