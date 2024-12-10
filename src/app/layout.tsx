@@ -23,12 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <link rel="icon" href="../../../assets/images/favicon.ico" />
+      <link rel="icon" href="../../../assets/images/talentvare.svg" />
       <link
         rel="apple"
         sizes="180x180"
-        href="../../../assets/images/favicon.ico"
-      /> */}
+        href="../../../assets/images/talentvare.svg"
+      />
      <body
         style={{
           backgroundColor: "var(--surface-background)",

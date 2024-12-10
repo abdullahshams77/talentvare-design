@@ -3,6 +3,7 @@
 import AppButton from "@/components/common/app.button/app.button";
 import AppDropdown from "@/components/common/app.dropdown/app.dropdown";
 import AppInput from "@/components/common/app.input/app.input";
+import { Divider } from "primereact/divider";
 
 export default function JobsFilter() {
   return (
@@ -16,11 +17,13 @@ export default function JobsFilter() {
               placeholder="Job Title, Company, or Keywords"
             />
           </div>
-          <div className="w-12 lg:w-3">
+          <div className="w-12 lg:w-3 flex">
+            <Divider className="hidden lg:block" layout="vertical" />
             <AppDropdown disabled placeholder="Select Location" />
           </div>
-          <div className="w-12 lg:w-2">
-            <AppDropdown disabled  placeholder="Job type" />
+          <div className="w-12 lg:w-2 flex">
+            <Divider className="hidden lg:block" layout="vertical" />
+            <AppDropdown disabled placeholder="Job type" />
           </div>
           <div className="w-12 lg:w-2">
             <AppButton icon="pi pi-search" iconPos="left" label="Search" />
